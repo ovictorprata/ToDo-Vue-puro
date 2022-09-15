@@ -32,7 +32,7 @@
               <h3>{{task.nome}}</h3>
               <p>Modelo: {{task.modelo}}</p>
               <p>{{task.id}}</p>
-              <button @click="deleteTask(task.id)">Apagar Task</button>
+              <a @click="deleteTask(task.id)" class="waves-effect waves-light btn">Deletar task</a>
               <a @click="updateTask(task.id)" class="waves-effect waves-light btn">Atualizar task</a>
             </div>
             <div class="card-action">

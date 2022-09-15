@@ -11,7 +11,10 @@ const vm = new Vue({
     getTasks(){
       fetch('http://localhost:3000/ativos')
       .then(r => r.json())
-      .then(r => this.tasks = r)
+      .then(r => {
+        console.log(r)
+        this.tasks = r})
+      
     },
     deleteTask(id){
       fetch(`http://localhost:3000/ativos/${id}`, { method: 'DELETE'})

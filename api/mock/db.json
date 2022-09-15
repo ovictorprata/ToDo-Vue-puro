@@ -1,16 +1,6 @@
 {
   "ativos": [
     {
-      "id": 2,
-      "nome": "dddd",
-      "modelo": null
-    },
-    {
-      "nome": "asdasda",
-      "modelo": "asdasdas",
-      "id": 3
-    },
-    {
       "nome": "TESTEa",
       "modelo": "asas",
       "id": 4
